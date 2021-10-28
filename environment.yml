@@ -1,0 +1,16 @@
+name: cs224w
+channels:
+ - conda-forge
+ - defaults
+dependencies :
+ - python=3.9 # 不精确版本单等号
+ - pandas
+ - tabulate
+ - pyarrow
+ - coloredlogs
+ - pip
+ - scipy
+ - numpy
+ - yapf
+ - matplotlib
+# conda env create
